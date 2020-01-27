@@ -1,4 +1,9 @@
-@import url('https://cdn.statically.io/gh/rastikerdar/vazir-font/v21.2.1/dist/font-face.css');
+/*!
+ * Rata Template (https://github.com/smartwf/rata)
+ * Licensed under WTFPL (https://github.com/smartwf/rata/blob/master/LICENSE)
+ */
+
+ @import url('https://cdn.statically.io/gh/rastikerdar/vazir-font/v21.2.1/dist/font-face.css');
 
 body{
 	font-family:vazir;
