@@ -22,6 +22,10 @@ a Minimal Template for wikipedia - قالبی مینیمال برای ویکی �
   <img src="https://user-images.githubusercontent.com/29660977/73199848-dda22d80-414a-11ea-9a68-63f2bcf027d9.png">
   این قالب هنوز تکمیل نشده است و دارای ایراداتی است!
   <img src="https://user-images.githubusercontent.com/29660977/73199848-dda22d80-414a-11ea-9a68-63f2bcf027d9.png">
+  <br>
+  <img src="https://user-images.githubusercontent.com/29660977/73199848-dda22d80-414a-11ea-9a68-63f2bcf027d9.png">
+  این قالب رسپانسیو نمیباشد و در حال حاضر فقط برای رزولوشن 1080*1920 مناسب است!
+  <img src="https://user-images.githubusercontent.com/29660977/73199848-dda22d80-414a-11ea-9a68-63f2bcf027d9.png">
 </p>
 
 <hr>
