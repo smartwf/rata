@@ -38,7 +38,7 @@ a Minimal Template for wikipedia - قالبی مینیمال برای ویکی �
 </p>
 <br>
 <p align="center">
-  <a href="https://user-images.githubusercontent.com/29660977/73191448-c2c8bc80-413c-11ea-9d37-20c3f75e2bac.png" title="برای بزرگنمایی کلیک کنید" target="_blank"><img src="https://user-images.githubusercontent.com/29660977/73191448-c2c8bc80-413c-11ea-9d37-20c3f75e2bac.png"></a>
+  <a href="https://user-images.githubusercontent.com/29660977/73262305-18f03b00-41e3-11ea-93a7-8d84b7259ef3.png" title="برای بزرگنمایی کلیک کنید" target="_blank"><img src="https://user-images.githubusercontent.com/29660977/73262305-18f03b00-41e3-11ea-93a7-8d84b7259ef3.png"></a>
   <br>
   صفحه مقاله
 </p>
