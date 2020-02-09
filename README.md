@@ -16,8 +16,6 @@ a Minimal Template for wikipedia - قالبی مینیمال برای ویکی �
 
 <p align="center" dir="rtl">
  راتا - قالبی مینیمال برای ویکی پدیا
-  <br>
-  بر مبنای واسط کاربری (UI) <a href="https://virgool.io" target="_blank">ویرگول</a>
   <br><br>
   <img src="https://user-images.githubusercontent.com/29660977/73199848-dda22d80-414a-11ea-9a68-63f2bcf027d9.png">
   این قالب هنوز تکمیل نشده است و دارای ایراداتی است!
