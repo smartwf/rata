@@ -96,7 +96,7 @@ body{
 	color: rgba(0,0,0,0);
     width: 38px;
     height: 38px;
-    background: url(https://fa.wikipedia.org/w/skins/Vector/images/user-avatar.svg) center no-repeat #f3f3f3;
+    background: url(https://fa.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/user-avatar.svg) center no-repeat #f3f3f3;
     border-radius: 50%;
     padding: 0;
     cursor: pointer;
