@@ -16,6 +16,10 @@ body{
 	padding: 20px 0;
 }
 
+.vector-menu-tabs, .vector-menu-tabs a, #mw-head .vector-menu-dropdown h3{
+  background: none !important;
+}
+
 #left-navigation{
 	margin-right: 210px;
 	padding-right: 20px;
@@ -383,11 +387,6 @@ body{
 	color: #252525;
 }
 
-
-#mp-header{
-	margin-bottom: 1150px !important;
-}
-
 #mp-header #mf-stat{
 	text-align: center;
     font-weight: 400;
@@ -423,11 +422,36 @@ body{
 	display:none;
 }
 
+#mp-right{
+  width: 100% !important;
+  display: flex;
+  flex-flow: column;
+}
+
+#mf-aw{
+  order: 1;
+}
+
+#mf-aw .mp-bar{
+  display: none;
+}
+
+#mf-aw div:last-child{
+  font-weight: 300;
+  color: #333;
+}
+
+#mf-aw b{
+  font-weight: unset !important;
+}
+
+#mf-aw a{
+  color: #333;
+  text-decoration: none;
+}
+
 #mf-fc{
-	position: absolute;
-    top: 270px;
-    width: 100%;
-    left: 0;
+  order: 2;
 }
 
 #mf-fc .mp-bar{
@@ -440,21 +464,26 @@ body{
 
 #mf-fc .hlist ul li a{
 	background: #252525;
-    background-size: cover !important;
-    border-radius: 8px;
-    overflow: hidden;
-    margin-left: 10px;
-    display: inline-block;
-    width: 150px;
-    text-align: center;
-    height: 60px;
-    line-height: 60px;
-    color: white;
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-    z-index: 0;
-    text-decoration: none;
+  background-size: cover !important;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-left: 10px;
+  display: inline-block;
+  width: 150px;
+  text-align: center;
+  height: 60px;
+  line-height: 60px;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+  position: relative;
+  z-index: 0;
+  text-decoration: none;
+  transition: .5s;
+}
+
+#mf-fc .hlist ul li a:hover{
+  transform: scale(1.1);
 }
 
 #mf-fc .hlist ul li a:before{
@@ -582,15 +611,59 @@ body{
 }
 
 #mf-fc .hlist ul li a[title="رده:زبان‌شناسی"] {
-	background: url() center !important;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Alphabets.jpg/200px-Alphabets.jpg) center;
 }
 
 #mf-fc .hlist ul li a[title="رده:علوم سیاسی"] {
-	background: url() center !important;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Joseph_Stalin%2C_Franklin_D_Roosevelt_and_Winston_Churchill%2C_in_Teheran%2C_1943%2C_edit.jpg/200px-Joseph_Stalin%2C_Franklin_D_Roosevelt_and_Winston_Churchill%2C_in_Teheran%2C_1943%2C_edit.jpg) top;
 }
 
 #mf-fc .hlist ul li a[title="درگاه:فلسفه"] {
-	background: url() center !important;
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Sanzio_01_Plato_Aristotle.jpg/200px-Sanzio_01_Plato_Aristotle.jpg) top;
+}
+
+#mf-fc .hlist ul li a[title="درگاه:زندگی‌نامه"] {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Greek_philosopher_busts.jpg/200px-Greek_philosopher_busts.jpg) center;
+}
+
+#mf-fc .hlist ul li a[title="رده:رسانه"] {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/C-SPAN_control_room.jpg/200px-C-SPAN_control_room.jpg) top;
+}
+
+#mf-fc .hlist ul li a[title="رده:سرگرمی‌ها"] {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/The_art_of_video_…mes_exhibition_crowd.jpg/200px-The_art_of_video_games_exhibition_crowd.jpg) center;
+}
+
+#mf-fc .hlist ul li a[title="رده:سینما"] {
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Interno_di_un_sala_da_cinema.JPG/200px-Interno_di_un_sala_da_cinema.JPG) bottom;
+}
+
+#mf-fc .hlist ul li a[title="درگاه:معماری"] {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Pakistan_Monument_Architecture.JPG/200px-Pakistan_Monument_Architecture.JPG) bottom;
+}
+
+#mf-fc .hlist ul li a[title="درگاه:موسیقی"] {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Playing_the_piano_2.jpg/200px-Playing_the_piano_2.jpg) center;
+}
+
+#mf-fc .hlist ul li a[title="رده:نقاشی"] {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/A_HONG-KONG_ARTIST.jpg/200px-A_HONG-KONG_ARTIST.jpg) center;
+}
+
+#mf-fc .hlist ul li a[title="رده:ورزش"] {
+      background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/FSU_Basketball_vs_Southeast_Missouri.jpg/200px-FSU_Basketball_vs_Southeast_Missouri.jpg) top;
+}
+
+#mf-fc .hlist ul li a[title="درگاه:هنر"] {
+  background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_L…d.jpg/200px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg) center -25px;
+}
+
+#mf-con{
+  order: 3;
+}
+
+#mf-fa{
+  order: 4;
 }
 
 div.thumbinner{
